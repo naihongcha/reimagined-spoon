@@ -3,11 +3,6 @@
 name: listcheck
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - closed
-      - labeled
     branches: 
       - main
     paths:
